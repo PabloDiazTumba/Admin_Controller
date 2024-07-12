@@ -3,87 +3,89 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
+        <!-- Här är konfigurationen för föräldraprojektet som hanterar beroenden och versioner för Spring Boot -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.0</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>3.3.0</version> <!-- Använder Spring Boot version 3.3.0 -->
+        <relativePath/> <!-- söker förälder från repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>Login</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Login</name>
-    <description>Login</description>
+    <artifactId>Login</artifactId> <!-- Grupp-ID och konstnärs-ID för ditt projekt -->
+    <version>0.0.1-SNAPSHOT</version> <!-- Versionsnummer för ditt projekt -->
+    <name>Login</name> <!-- Projektets namn -->
+    <description>Login</description> <!-- Projektbeskrivning -->
     <properties>
-        <java.version>17</java.version>
+        <java.version>17</java.version> <!-- Java version som används -->
     </properties>
     <dependencies>
+        <!-- Beroenden för olika bibliotek som används i projektet -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <artifactId>spring-boot-starter-security</artifactId> <!-- Spring Security för autentisering och auktorisering -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId> <!-- Spring Boot Starter för webbapplikationer -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId> <!-- Spring Boot Starter för Thymeleaf-templating -->
         </dependency>
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
-            <artifactId>thymeleaf-extras-springsecurity6</artifactId>
+            <artifactId>thymeleaf-extras-springsecurity6</artifactId> <!-- Tillägg för att integrera Thymeleaf med Spring Security -->
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-test</artifactId> <!-- Spring Boot Starter för enhetstest -->
+            <scope>test</scope> <!-- Scope för testberoendet -->
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-security-test</artifactId> <!-- Testverktyg för Spring Security -->
+            <scope>test</scope> <!-- Scope för testberoendet -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-validation</artifactId>
+            <artifactId>spring-boot-starter-validation</artifactId> <!-- Spring Boot Starter för validering -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId> <!-- Spring Boot Starter för dataaccess med JPA -->
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>runtime</scope>
+            <artifactId>h2</artifactId> <!-- In-memory databas för utveckling och testning -->
+            <scope>runtime</scope> <!-- Scope för beroendet -->
         </dependency>
         <dependency>
             <groupId>org.jboss.aerogear</groupId>
-            <artifactId>aerogear-otp-java</artifactId>
-            <version>1.0.0</version>
+            <artifactId>aerogear-otp-java</artifactId> <!-- Bibliotek för hantering av engångslösenord (OTP) -->
+            <version>1.0.0</version> <!-- Version av biblioteket -->
         </dependency>
         <dependency>
             <groupId>com.google.zxing</groupId>
-            <artifactId>javase</artifactId>
-            <version>3.5.2</version>
+            <artifactId>javase</artifactId> <!-- ZXing bibliotek för generering av QR-koder -->
+            <version>3.5.2</version> <!-- Version av biblioteket -->
         </dependency>
         <dependency>
             <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-jpa</artifactId>
-            <version>3.2.5</version>
+            <artifactId>spring-data-jpa</artifactId> <!-- Spring Data JPA bibliotek -->
+            <version>3.2.5</version> <!-- Version av biblioteket -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-oauth2-client</artifactId>
+            <artifactId>spring-boot-starter-oauth2-client</artifactId> <!-- Spring Boot Starter för OAuth2-klient -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <artifactId>spring-boot-starter-security</artifactId> <!-- Spring Boot Starter för säkerhet -->
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <scope>provided</scope>
+            <artifactId>lombok</artifactId> <!-- Lombok-biblioteket för att minska boilerplate-kod -->
+            <scope>provided</scope> <!-- Scope för beroendet -->
         </dependency>
 
     </dependencies>
@@ -92,7 +94,7 @@
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
+                <artifactId>spring-boot-maven-plugin</artifactId> <!-- Maven-plugin för att bygga Spring Boot-applikationer -->
             </plugin>
         </plugins>
     </build>
