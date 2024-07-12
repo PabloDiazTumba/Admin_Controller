@@ -83,19 +83,17 @@
     </thead>
     <tbody>
     <tr th:each="user : ${users}">
-        <td th:text="${user.id}"></td>
-        <td th:text="${user.email}"></td>
-        <td th:text="${user.role}"></td>
-        <td>
-        </td>
+        <td th:text="${user.id}"></td> <!-- Visar användarens ID -->
+        <td th:text="${user.email}"></td> <!-- Visar användarens email -->
+        <td th:text="${user.role}"></td> <!-- Visar användarens roll -->
     </tr>
     </tbody>
 </table>
 
-<button onclick="location.href='/admin'" class="admin-button">Back to Admin Page</button>
+<button onclick="location.href='/admin'" class="admin-button">Back to Admin Page</button> <!-- Knapp för att gå tillbaka till adminsidan -->
 
 <div>
-    <a href="/logout" th:href="@{/login}" class="action-button">Logout</a>
+    <a href="/logout" th:href="@{/login}" class="action-button">Logout</a> <!-- Logout-länk -->
 </div>
 </body>
 </html>

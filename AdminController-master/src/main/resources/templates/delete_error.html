@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Error</title>
+    <title>Error</title> <!-- Titel på sidan som visas i webbläsarfönstret -->
 </head>
 <body>
-<h1>Error</h1>
-<p th:text="${error}">An error occurred</p>
-<a href="/delete">Try Again</a>
+<h1>Error</h1> <!-- Rubrik "Error" -->
+<p th:text="${error}">An error occurred</p> <!-- Dynamiskt visar meddelandetexten från variabeln "error" eller standardtexten "An error occurred" -->
+<a href="/delete">Try Again</a> <!-- Länk för att försöka igen -->
 </body>
 </html>

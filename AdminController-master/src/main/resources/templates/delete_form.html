@@ -80,33 +80,33 @@
     </style>
 </head>
 <body>
-<h1>Delete User</h1>
-<form th:action="@{/delete}" method="post">
+<h1>Delete User</h1> <!-- Rubrik "Delete User" -->
+<form th:action="@{/delete}" method="post"> <!-- Formulär för att skicka in användarens email för att ta bort -->
     <label for="email">Enter user's email:</label>
-    <input type="text" id="email" name="email" required>
-    <input type="submit" value="Delete User">
+    <input type="text" id="email" name="email" required> <!-- Textinmatningsfält för användarens email -->
+    <input type="submit" value="Delete User"> <!-- Knapp för att skicka in formuläret och ta bort användaren -->
 </form>
 
-<h1>All Registered Users</h1>
+<h1>All Registered Users</h1> <!-- Rubrik "All Registered Users" -->
 <table>
     <thead>
     <tr>
-        <th>ID</th>
-        <th>Email</th>
-        <th>Role</th>
+        <th>ID</th> <!-- Tabellhuvud för användar-ID -->
+        <th>Email</th> <!-- Tabellhuvud för användarens email -->
+        <th>Role</th> <!-- Tabellhuvud för användarens roll -->
     </tr>
     </thead>
     <tbody>
-    <tr th:each="user : ${users}">
-        <td th:text="${user.id}"></td>
-        <td th:text="${user.email}"></td>
-        <td th:text="${user.role}"></td>
+    <tr th:each="user : ${users}"> <!-- Loopar igenom varje användare i listan "users" -->
+        <td th:text="${user.id}"></td> <!-- Visar användarens ID i tabellcell -->
+        <td th:text="${user.email}"></td> <!-- Visar användarens email i tabellcell -->
+        <td th:text="${user.role}"></td> <!-- Visar användarens roll i tabellcell -->
     </tr>
     </tbody>
 </table>
 <div class="button-container">
-    <a href="/admin" class="button">Go Back to Admin Page</a>
-    <a th:href="@{/perform_logout}" class="button">Logout</a>
+    <a href="/admin" class="button">Go Back to Admin Page</a> <!-- Länk tillbaka till adminsidan med en stiliserad knapp -->
+    <a th:href="@{/perform_logout}" class="button">Logout</a> <!-- Länk för att logga ut med en stiliserad knapp -->
 </div>
 </body>
 </html>

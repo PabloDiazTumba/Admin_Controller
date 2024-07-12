@@ -52,19 +52,19 @@
     </style>
 </head>
 <body>
-<h1>Welcome to the Homepage</h1>
+<h1>Welcome to the Homepage</h1> <!-- Rubrik "Welcome to the Homepage" -->
 
-<!-- Display user information if logged in -->
-<div class="user-info" th:if="${#authorization.expression('isAuthenticated()')}">
-    <p>You are logged in as: <span th:text="${#authentication.name}">Username</span></p>
+<!-- Visa användarinformation om inloggad -->
+<div class="user-info" th:if="${#authorization.expression('isAuthenticated')}">
+    <p>You are logged in as: <span th:text="${#authentication.name}">Username</span></p> <!-- Visar inloggad användares namn -->
 </div>
 
-<!-- Button to go to Admin Page, shown only for users with ROLE_ADMIN -->
-<div class="admin-button" th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
-    <button onclick="location.href='/admin'" class="button">Go to Admin Page</button>
+<!-- Knapp för att gå till Admin Page, visas endast för användare med rollen ROLE_ADMIN -->
+<div class="admin-button" th:if="${#authorization.expression('hasRole(''ADMIN'')}">
+    <button onclick="location.href='/admin'" class="button">Go to Admin Page</button> <!-- Knapp för att gå till adminsidan -->
 </div>
 
-<!-- Logout link -->
-<a href="/logout" class="logout-link" th:href="@{/login}">Logout</a>
+<!-- Logout länk -->
+<a href="/logout" class="logout-link" th:href="@{/login}">Logout</a> <!-- Länk för att logga ut -->
 </body>
 </html>

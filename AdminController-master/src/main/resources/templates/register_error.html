@@ -38,12 +38,14 @@
     </style>
 </head>
 <body>
-<h1>Registration Error</h1>
+<h1>Registration Error</h1> <!-- Rubrik "Registration Error" -->
+
 <div class="message">
-    <p th:text="${error}"></p>
+    <p th:text="${error}"></p> <!-- Visa felmeddelande som kommer från servern -->
 </div>
+
 <div>
-    <a href="/register" class="button">Back to Registration</a>
+    <a href="/register" class="button">Back to Registration</a> <!-- Knapp för att gå tillbaka till registreringssidan -->
 </div>
 </body>
 </html>

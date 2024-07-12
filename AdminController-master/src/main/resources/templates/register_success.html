@@ -68,16 +68,17 @@
     </style>
 </head>
 <body>
-<h1>Registration Successful</h1>
+<h1>Registration Successful</h1> <!-- Rubrik för framgångsrik registrering -->
+
 <div class="user-info">
-    <p><span>Email:</span> <span class="user-data" th:text="${user.email}"></span></p>
-    <p><span>Password:</span> <span class="user-data" th:text="${user.password}"></span></p>
+    <p><span>Email:</span> <span class="user-data" th:text="${user.email}"></span></p> <!-- Visa användarens email -->
+    <p><span>Password:</span> <span class="user-data" th:text="${user.password}"></span></p> <!-- Visa användarens lösenord -->
 </div>
 
-<button onclick="location.href='/admin'">Go to Admin Page</button>
+<button onclick="location.href='/admin'">Go to Admin Page</button> <!-- Knapp för att gå till adminsidan -->
 
 <div>
-    <a href="/logout" th:href="@{/login}">Logout</a>
+    <a href="/logout" th:href="@{/login}">Logout</a> <!-- Logout-länk -->
 </div>
 </body>
 </html>

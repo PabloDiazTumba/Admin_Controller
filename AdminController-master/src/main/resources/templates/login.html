@@ -63,23 +63,23 @@
     </style>
 </head>
 <body>
-<h1>Login</h1>
+<h1>Login</h1> <!-- Rubrik "Login" -->
 
-<form th:action="@{/login}" method="post">
+<form th:action="@{/login}" method="post"> <!-- Formulär för inloggning med POST-metod -->
     <div>
-        <label for="username">Email:</label>
-        <input type="email" id="username" name="username" required />
+        <label for="username">Email:</label> <!-- Etikett för användarens email -->
+        <input type="email" id="username" name="username" required /> <!-- Inmatningsfält för email, obligatoriskt -->
     </div>
     <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
+        <label for="password">Password:</label> <!-- Etikett för lösenord -->
+        <input type="password" id="password" name="password" required /> <!-- Inmatningsfält för lösenord, obligatoriskt -->
     </div>
     <div>
-        <button type="submit">Login</button>
+        <button type="submit">Login</button> <!-- Knapp för att skicka inloggningsformuläret -->
     </div>
 
     <div th:if="${error}" class="error-message">
-        <p th:text="${error}">Incorrect username or password. Please try again.</p>
+        <p th:text="${error}">Incorrect username or password. Please try again.</p> <!-- Meddelande vid felaktig inloggning -->
     </div>
 </form>
 </body>
