@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .user-info {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .user-info span {
+            font-weight: bold;
+        }
+        .admin-button {
+            margin-top: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        .logout-link {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to the Homepage</h1>
+
+<!-- Display user information if logged in -->
+<div class="user-info" th:if="${#authorization.expression('isAuthenticated()')}">
+    <p>You are logged in as: <span th:text="${#authentication.name}">Username</span></p>
+</div>
+
+<!-- Button to go to Admin Page, shown only for users with ROLE_ADMIN -->
+<div class="admin-button" th:if="${#authorization.expression('hasRole(''ADMIN'')')}">
+    <button onclick="location.href='/admin'" class="button">Go to Admin Page</button>
+</div>
+
+<!-- Logout link -->
+<a href="/logout" class="logout-link" th:href="@{/login}">Logout</a>
+</body>
+</html>

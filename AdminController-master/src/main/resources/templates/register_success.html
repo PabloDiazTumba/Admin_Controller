@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Successful</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #007bff; /* Anpassad färg för huvudrubriken */
+        }
+        .success-message {
+            color: #28a745;
+            margin-top: 10px;
+        }
+        .user-info {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .user-info p {
+            margin-bottom: 10px;
+        }
+        .user-info span {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .user-info .user-data {
+            color: #007bff; /* Anpassad färg för användardata */
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            transition: color 0.3s ease; /* Övergångseffekt för färg */
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #0056b3; /* Anpassad färg för hover-effekt */
+        }
+    </style>
+</head>
+<body>
+<h1>Registration Successful</h1>
+<div class="user-info">
+    <p><span>Email:</span> <span class="user-data" th:text="${user.email}"></span></p>
+    <p><span>Password:</span> <span class="user-data" th:text="${user.password}"></span></p>
+</div>
+
+<button onclick="location.href='/admin'">Go to Admin Page</button>
+
+<div>
+    <a href="/logout" th:href="@{/login}">Logout</a>
+</div>
+</body>
+</html>

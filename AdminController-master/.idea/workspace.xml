@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="67b6c4dc-8b45-429b-b371-5bd8a93d1b1b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00b2791d-93de-4839-a513-bada24d71c9a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00b2791d-93de-4839-a513-bada24d71c9a/storage_v2/_src_/database/LOGINH2.81EzPw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00b2791d-93de-4839-a513-bada24d71c9a/storage_v2/_src_/database/LOGINH2.81EzPw/schema/PUBLIC.aaZQjQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Login.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/app.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/config/TestSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/config/TestSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/login/web/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/login/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/login/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/config/TestSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/config/TestSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/login/util/MaskingUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/login/util/MaskingUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/users_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users_list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2i3kou4m0H6DxAB2OvftYvoukij" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.ControllerTest.executor": "Run",
+    "JUnit.ControllerTest.testDeleteAdminUser.executor": "Run",
+    "JUnit.ControllerTest.testDeleteUserNotFound.executor": "Run",
+    "JUnit.ControllerTest.testDeleteUserSuccess.executor": "Run",
+    "JUnit.ControllerTest.testHomepageAuthenticated.executor": "Run",
+    "JUnit.ControllerTest.testHomepageNotAuthenticated.executor": "Run",
+    "JUnit.ControllerTest.testRegistrationValidationError.executor": "Run",
+    "JUnit.ControllerTest.testSuccessfulRegistration.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LoginApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Bilge/OneDrive/Desktop/IT & is/TwoFactor",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ControllerTest.testDeleteAdminUser">
+    <configuration name="ControllerTest.testDeleteAdminUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteAdminUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testDeleteUserNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteUserNotFound" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testDeleteUserSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testDeleteUserSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testRegistrationValidationError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testRegistrationValidationError" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControllerTest.testSuccessfulRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.login" />
+      <option name="MAIN_CLASS_NAME" value="com.example.login.ControllerTest" />
+      <option name="METHOD_NAME" value="testSuccessfulRegistration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Login" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.login.LoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ControllerTest.testDeleteAdminUser" />
+        <item itemvalue="JUnit.ControllerTest.testDeleteUserNotFound" />
+        <item itemvalue="JUnit.ControllerTest.testDeleteUserSuccess" />
+        <item itemvalue="JUnit.ControllerTest.testRegistrationValidationError" />
+        <item itemvalue="JUnit.ControllerTest.testSuccessfulRegistration" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastUrl" value="http://localhost:8080/users" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67b6c4dc-8b45-429b-b371-5bd8a93d1b1b" name="Changes" comment="" />
+      <created>1718726827884</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718726827884</updated>
+      <workItem from="1718726829497" duration="167000" />
+      <workItem from="1718792481385" duration="6945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
